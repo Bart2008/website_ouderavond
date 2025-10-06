@@ -1,0 +1,146 @@
+/* Algemene instellingen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #003366;
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+/* Navigatie (subnav) */
+.subnav {
+    position: relative;
+    display: inline-block;
+}
+
+.subnavbtn {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.subnavbtn:hover {
+    background: #0055aa;
+    border-radius: 5px;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.subnav-content a {
+    display: block;
+    color: #003366;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background: #f0f0f0;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+/* Container indeling */
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #003366;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin: 8px 0;
+}
+
+/* Main content */
+main {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.content-block {
+    margin-bottom: 20px;
+}
+
+.content-block h1, 
+.content-block h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 3px solid #0055aa;
+}
+
+/* Responsief maken */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
