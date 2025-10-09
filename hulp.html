@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hulp</title>
+    <link rel="stylesheet" href="style1.css">
+ </head>
+
+<body>
+
+   <header>
+        <div class="container">
+            <h1 class="logo">Hulp?</h1>
+            <img src="ouderavond.jpg">
+
+
+            <div class="navbar">
+              <div class="dropbtn">
+  <a href="website_ouderavond.html" class="dropbtn">Home</a>
+</div>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Over het Hoornbeeck</button>
+    <div class="dropdown-content">
+      <a href="locatie_kampen.html">Locatie Kampen</a>
+      <a href="ict_opleidingen.html">ICT-opleidingen</a>
+      <a href="pagina_sfeerbeelden.html">Pagina sfeerbeelden</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Over de ouderavond</button>
+    <div class="dropdown-content">
+      <a href="doel.html">Doel</a>
+      <a href="organisatie.html">Organisatie</a>
+      <a href="programma.html">Programma</a>
+      <a href="plattegrond.html">Plattegrond</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Over mij</button>
+    <div class="dropdown-content">
+      <a href="wie_ben_ik.html">Wie ben ik?</a>
+      <a href="geschiedenis.html">Geschiedenis</a>
+      <a href="loopbaan.html">Loopbaan</a>
+      <a href="toekomst.html">Toekomst</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Over ons</button>
+    <div class="dropdown-content">
+      <a href="websites.html">Websites</a>
+    </div>
+  </div>
+
+   <div class="dropdown">
+    <button class="dropbtn">Informatie over deze website</button>
+    <div class="dropdown-content">
+      <a href="waarom.html">Waarom?</a>
+      <a href="hulp.html">Hulp</a>
+    </div>
+  </div>
+</div>
+</body>
+</nav>
+</div>
+</header>
+  </header>
+
+<div class="container">
+    <h1>Heeft u hulp nodig?</h1>
+
+     <div class="course-card">
+      <p>Heeft u hulp nodig met het gebruik van deze website. Vul het formulier vraag in.</p>
+      <p>Of heeft u een klacht over de inhoud van deze website.</p>
+      <p>Of een klacht over wat u tijdens het gebruik van deze website hebt ervaren. Vul het formulier klacht in.</p>
+
+      <style>
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .formulier-opties {
+    margin-bottom: 20px;
+  }
+
+  .formulier-opties button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    display: none;
+  }
+
+  form * {
+    display: block !important; 
+    width: 100% !important;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+
+  .multiple-pages input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 5px;
+  }
+
+  button.submit-btn {
+    margin-top: 15px;
+    background-color: #0092ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: auto; 
+  }
+
+  button.submit-btn:hover {
+    background-color: #0092ff;
+  }
+</style>
+<body>
+
+<div class="formulier-opties">
+<h2>Kies het type:</h2>
+  <button id="klachtBtn">Klacht</button>
+  <button id="vraagBtn">Vraag</button>
+</div>
+
+<form id="klachtForm">
+  <label for="geslachtKlacht">Geslacht:</label>
+  <select id="geslachtKlacht">
+    <option value="">-- Kies geslacht --</option>
+    <option value="man">Man</option>
+    <option value="vrouw">Vrouw</option>
+  </select>
+
+  <label for="voornaamKlacht">Voornaam:</label>
+  <input type="text" id="voornaamKlacht" placeholder="Vul uw voornaam in...">
+
+  <label for="tussenvoegselKlacht">Tussenvoegsel:</label>
+  <input type="text" id="tussenvoegselKlacht" placeholder="Vul uw tussenvoegsel in...">
+
+  <label for="achternaamKlacht">Achternaam:</label>
+  <input type="text" id="achternaamKlacht" placeholder="Vul uw achternaam in..">
+
+  <label for="telefoonKlacht">Telefoonnummer:</label>
+  <input type="tel" id="telefoonKlacht" placeholder="Vul uw telefoonnummer in...">
+
+  <label for="emailKlacht">E-mailadres:</label>
+  <input type="email" id="emailKlacht" placeholder="Vul uw e-mailadres in...">
+
+  <label>Pagina(s) waarover de klacht gaat:</label>
+  <div class="multiple-pages">
+    <input type="checkbox" name="paginaKlacht" value="Pagina 1"> Home<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 2"> Locatie Kampen<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> ICT-opleidingen<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Pagina sfeerbeelden<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Doel<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Organisatie<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Programma<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Plattegrond<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Wie ben ik?<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Geschiedenis<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Loopbaan<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Toekomst<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Willems website<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Waarom?<br>
+    <input type="checkbox" name="paginaKlacht" value="Pagina 3"> Hulp<br>
+  </div>
+
+  <label for="klachtText">Uw klacht:</label>
+  <textarea id="klachtText" rows="5" placeholder="Beschrijf uw klacht hier..."></textarea>
+
+  <button type="submit" class="submit-btn">Verstuur Klacht</button>
+</form>
+
+<form id="vraagForm">
+  <label for="geslachtVraag">Geslacht:</label>
+  <select id="geslachtVraag">
+    <option value="">-- Kies geslacht --</option>
+    <option value="man">Man</option>
+    <option value="vrouw">Vrouw</option>
+  </select>
+
+  <label for="voornaamVraag">Voornaam:</label>
+  <input type="text" id="voornaamVraag" placeholder="Vul uw voornaam in...">
+
+  <label for="tussenvoegselVraag">Tussenvoegsel:</label>
+  <input type="text" id="tussenvoegselVraag" placeholder="Vul uw tussenvoegsel in...">
+
+  <label for="achternaamVraag">Achternaam:</label>
+  <input type="text" id="achternaamVraag" placeholder="Vul uw achternaam in...">
+
+  <label for="telefoonVraag">Telefoonnummer:</label>
+  <input type="tel" id="telefoonVraag" placeholder="Vul uw telefoonnummer in...">
+
+  <label for="emailVraag">E-mailadres:</label>
+  <input type="email" id="emailVraag" placeholder="Vul uw e-mailadres in...">
+
+  <label for="vraagText">Uw vraag:</label>
+  <textarea id="vraagText" rows="5" placeholder="Stel hier uw vraag..."></textarea>
+
+  <button type="submit" class="submit-btn">Verstuur Vraag</button>
+</form>
+
+<script>
+  const klachtBtn = document.getElementById('klachtBtn');
+  const vraagBtn = document.getElementById('vraagBtn');
+  const klachtForm = document.getElementById('klachtForm');
+  const vraagForm = document.getElementById('vraagForm');
+
+  klachtBtn.addEventListener('click', () => {
+    klachtForm.style.display = 'block';
+    vraagForm.style.display = 'none';
+  });
+
+  vraagBtn.addEventListener('click', () => {
+    klachtForm.style.display = 'none';
+    vraagForm.style.display = 'block';
+  });
+
+  const geslachtKlacht = document.getElementById('geslachtKlacht');
+  const voornaamKlacht = document.getElementById('voornaamKlacht');
+
+  geslachtKlacht.addEventListener('change', () => {
+    if (geslachtKlacht.value === 'man') voornaamKlacht.value = 'Meneer ';
+    else if (geslachtKlacht.value === 'vrouw') voornaamKlacht.value = 'Mevrouw ';
+    else voornaamKlacht.value = '';
+    voornaamKlacht.focus();
+    voornaamKlacht.setSelectionRange(voornaamKlacht.value.length, voornaamKlacht.value.length);
+  });
+
+  const geslachtVraag = document.getElementById('geslachtVraag');
+  const voornaamVraag = document.getElementById('voornaamVraag');
+
+  geslachtVraag.addEventListener('change', () => {
+    if (geslachtVraag.value === 'man') voornaamVraag.value = 'Meneer ';
+    else if (geslachtVraag.value === 'vrouw') voornaamVraag.value = 'Mevrouw ';
+    else voornaamVraag.value = '';
+    voornaamVraag.focus();
+    voornaamVraag.setSelectionRange(voornaamVraag.value.length, voornaamVraag.value.length);
+  });
+</script>
+
+  <footer>
+    &copy; 2025 Bart van der Meer. Alle rechten voorbehouden.
+  </footer>
+
+  </body>
+  </html>
