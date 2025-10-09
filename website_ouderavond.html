@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,137 +8,94 @@
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
+    <!-- Header -->
     <header>
         <div class="container">
-            <h1 class="logo">Website voor ouderavond</h1>
-            <img src="ouderavond.jpg">
-            <nav>
-            <style>
+            <h1 class="logo">Home</h1>
+            <img src="ouderavond.jpg" alt="Ouderavond afbeelding">
+        </div>
 
-.navbar {
-  background-color: #00a0a3;
-  padding: 10px;
-}
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Over het Hoornbeeck</button>
+                <div class="dropdown-content">
+                    <a href="locatie_kampen.html">Locatie Kampen</a>
+                    <a href="ict_opleidingen.html">ICT-opleidingen</a>
+                    <a href="pagina_sfeerbeelden.html">Pagina sfeerbeelden</a>
+                </div>
+            </div>
 
-.dropdown {
-  position: relative;
-  display: inline-block; 
-  margin-right: 20px;    
-}
+            <div class="dropdown">
+                <button class="dropbtn">Over de ouderavond</button>
+                <div class="dropdown-content">
+                    <a href="doel.html">Doel</a>
+                    <a href="organisatie.html">Organisatie</a>
+                    <a href="programma.html">Programma</a>
+                    <a href="plattegrond.html">Plattegrond</a>
+                </div>
+            </div>
 
-.dropbtn {
-  background-color: #0092ff;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
+            <div class="dropdown">
+                <button class="dropbtn">Over mij</button>
+                <div class="dropdown-content">
+                    <a href="wie_ben_ik.html">Wie ben ik?</a>
+                    <a href="geschiedenis.html">Geschiedenis</a>
+                    <a href="loopbaan.html">Loopbaan</a>
+                    <a href="toekomst.html">Toekomst</a>
+                </div>
+            </div>
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+            <div class="dropdown">
+                <button class="dropbtn">Over ons</button>
+                <div class="dropdown-content">
+                    <a href="websites.html">Websites</a>
+                </div>
+            </div>
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+            <div class="dropdown">
+                <button class="dropbtn">Informatie over deze website</button>
+                <div class="dropdown-content">
+                    <a href="waarom.html">Waarom?</a>
+                    <a href="hulp.html">Hulp</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #0092ff;
-}
-
-
-</style>
-</head>
-<body>
-
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Over het Hoornbeeck</button>
-    <div class="dropdown-content">
-      <a href="locatie_kampen.html">Locatie Kampen</a>
-      <a href="ict_opleidingen.html">ICT-opleidingen</a>
-      <a href="pagina_sfeerbeelden.html">Pagina sfeerbeelden</a>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <button class="dropbtn">Over de ouderavond</button>
-    <div class="dropdown-content">
-      <a href="doel.html">Doel</a>
-      <a href="organisatie.html">Organisatie</a>
-      <a href="programma.html">Programma</a>
-      <a href="plattegrond.html">Plattegrond</a>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <button class="dropbtn">Over mij</button>
-    <div class="dropdown-content">
-      <a href="wie_ben_ik.html">Wie ben ik?</a>
-      <a href="geschiedenis.html">Geschiedenis</a>
-      <a href="loopbaan.html">Loopbaan</a>
-      <a href="toekomst.html">Toekomst</a>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <button class="dropbtn">Over ons</button>
-    <div class="dropdown-content">
-      <a href="websites.html">Websites</a>
-    </div>
-  </div>
-
-   <div class="dropdown">
-    <button class="dropbtn">Informatie over deze website</button>
-    <div class="dropdown-content">
-      <a href="waarom.html">Waarom?</a>
-      <a hre="hulp.htlm">Hulp</a>
-    </div>
-  </div>
-</div>
-</body>
-</nav>
-</div>
-</header>
-
-
+    <!-- Hero sectie -->
     <section id="hero">
         <div class="container">
-            <h2>Goedendag, welkom op mijn website </h2>
-            <p> Neem gerust een kijkje op mijn website.</p>
-
+            <h2>Goedendag, welkom op mijn website</h2>
+            <p>Neem gerust een kijkje op mijn website.</p>
             <p>"Wat je tegenhoudt, kan je gids zijn naar iets groters - aldus BvdM."</p>
         </div>
     </section>
 
-  </style>
-</head>
+
+    <section class="photo-row" aria-label="Sfeerbeelden ouderavond">
+        <figure class="photo-card">
+            <img src="hc kampen.jpg" alt="HC Kampen" />
+            <figcaption></figcaption>
+        </figure>
+      </section>
 
 
-  <footer>
-    &copy; 2025 Bart van der Meer. Alle rechten voorbehouden.
-  </footer>
+     <section class="photo-row" aria-label="Sfeerbeelden ouderavond">
+        <figure class="photo-card">
+            <img src="achterkant.jpeg" alt="HC Kampen" />
+            <figcaption></figcaption>
+        </figure>
+      </section>
+
+    <footer>
+        &copy; 2025 Bart van der Meer. Alle rechten voorbehouden.
+    </footer>
 
 
 </body>
-</html
+</html>
 
