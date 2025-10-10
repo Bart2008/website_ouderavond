@@ -1,4 +1,4 @@
-/* Basis styling */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -17,13 +17,13 @@ html, body {
   flex: 1;
 }
 
-/* Header */
+
 header {
   background: #00a9a3;
   color: #fff;
   width: 100%;
   box-sizing: border-box;
-  padding: 0; /* padding verplaatst naar navbar */
+  padding: 0;
 }
 
 header .container {
@@ -65,7 +65,7 @@ header .logo {
   font-size: 14px;
   border: none;
   cursor: pointer;
-  border-radius: 8px;   /* afgeronde hoeken */
+  border-radius: 8px;  
   transition: background-color 0.3s;
   line-height: 1.2;
 }
@@ -77,7 +77,7 @@ header .logo {
   min-width: 180px;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
   z-index: 1;
-  border-radius: 6px;  /* afgeronde hoeken */
+  border-radius: 6px;  
 }
 
 .dropdown-content a {
@@ -102,7 +102,7 @@ header .logo {
   background-color: #0092ff;
 }
 
-/* Links in header nav */
+/*van links naar rechts */
 header nav ul {
   list-style: none;
   padding: 0;
@@ -147,7 +147,7 @@ h2 {
 form {
   background-color: white;
   padding: 20px;
-  border-radius: 12px;  /* afgeronde hoeken */
+  border-radius: 12px;  
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   display: none; 
 }
@@ -164,7 +164,7 @@ form textarea {
   display: block;      
 }
 
-/* Foto’s */
+
 .photo-row {
   display: flex;
   gap: 20px;
@@ -187,7 +187,7 @@ form textarea {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 12px;  /* afgeronde hoeken */
+  border-radius: 12px;  
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -205,7 +205,7 @@ form textarea {
   color: #333;
 }
 
-/* Timeline */
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -244,7 +244,7 @@ form textarea {
 .timeline-content {
   background: #efff;
   padding: 12px 16px;
-  border-radius: 12px;  /* afgeronde hoeken */
+  border-radius: 12px;  
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   position: relative;
 }
@@ -262,7 +262,7 @@ form textarea {
   z-index: 1;
 }
 
-/* Footer */
+
 footer {
   background-color: #00a9a3;
   color: #fff;
@@ -275,10 +275,10 @@ footer {
   left: 0;
   bottom: 0;
   box-sizing: border-box;
-  border-radius: 8px;  /* afgeronde hoeken footer */
+  border-radius: 8px;  
 }
 
-/* Source */
+
 .source {
   margin-top: 40px;
   font-size: 0.9rem;
@@ -295,7 +295,7 @@ footer {
   text-decoration: underline;
 }
 
-/* Responsief */
+
 @media (max-width: 900px) {
   .photo-card { width: calc(50% - 10px); }
 }
@@ -306,7 +306,8 @@ footer {
 }
 
 .dropdown-content a:hover {
-  background-color: #084887; /* lichte blauwe kleur */
-  color: #000;               /* optioneel: zwarte tekst voor goed contrast */
-  border-radius: 6px;         /* behoud afgeronde hoeken */
+  background-color: #084887; 
+  color: #000;            
+  border-radius: 6px;     
 }
+
